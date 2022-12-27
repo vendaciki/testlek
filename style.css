@@ -74,17 +74,7 @@ label {
 
 
 
-footer {
-    text-align: center;
-    background-color: rgb(96, 117, 181);
-    color: white;
-    padding: 5px 0;
-    font-size: 15px;
-    cursor: default;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
 
 
 
@@ -129,8 +119,5 @@ footer {
         font-size: 120px;
     }
 
-    footer {
-        padding: 15px 0;
-    }
 
 }
