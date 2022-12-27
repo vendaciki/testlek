@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #282425;
+    font-family: serif;
+    margin: 0;
+    height: 100%;
+    line-height: 1.5;
+    background-image: url(./body.jpg);
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
+header {
+    background-image: url(./back.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 50px;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.7);
+}
+
+.obsah {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto !important;
+    margin: 0 auto;
+}
+
+.leky {
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 20px;
+}
+
+.vyberlek, input {
+    width: 200px;
+    height: 40px;
+    border: 1px solid rgb(35, 35, 145);
+    border-radius: 5px;
+}
+
+option, label, input {
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+label {
+	display: block;	
+    padding: 5px;
+}
+
+.vysledek {
+    display: flex;
+}
+
+
+/*
+footer {
+    text-align: center;
+    background-color: rgb(96, 117, 181);
+    color: white;
+    padding: 5px 0;
+    font-size: 15px;
+    cursor: default;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* TABLET */
+@media screen and (min-width: 500px) and (max-width: 750px) {
+    
+    header h1 {
+        font-size: 90px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* PC */ 
+@media screen and (min-width: 750px) {
+    
+    header h1 {
+        font-size: 120px;
+    }
+/*
+    footer {
+        padding: 15px 0;
+    } */
+
+}
